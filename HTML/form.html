@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+      <div>
+          <label for="username">Username</label><br>
+          <input type= "text" value= "Himanshu" disabled id= "username" required>
+      </div>
+      <div>
+          <label for="password">Password</label><br>
+          <input type = "password" id= "password" required>
+      </div>
+      <div>
+          <input type = "submit">
+      </div>
+   </form>
+
+   <!-- types of input -->
+   <form action="">
+       <input type = "email">Email<br>
+       <input type= "date">Date<br>
+       <input type= "time">Time<br>
+       <input type= "number" min = "0">Number<br>
+       <input type= "range" min= "10" max= "100" step = "10">Range<br>
+       <input type= "url">url <br>
+   </form>
+
+   <!-- Radio -->
+   <form action="">
+       Gender <br>
+       <input type = "radio" name= "gender">Female
+       <input type= "radio" name= 'gender' checked>Male
+       <input type= "radio" name= "gender"> other
+   </form>
+
+   <!-- checkboxes -->
+   <form>
+       Courses <br>
+       <input type= "checkbox" name ="course1" value= "c++">c++
+       <input type= "checkbox" name= "course2" value= "java">java
+       <input type= "checkbox" name= "course3" value = "webd" checked>Web D
+   </form>
+
+   <!-- dropdown -->
+   <form action="">
+       <select multiple size="3">
+           <option value= "jan">Jan</option>
+           <option value= "feb" selected>Feb</option>
+           <option value="march">Mar</option>
+           <option value="april">Apr</option>
+       </select>
+       <select>
+           <optgroup label = "books">
+               <option value="html">HTML</option>
+               <option value="css">CSS</option>
+           </optgroup>
+           <optgroup label= 'snippets'>
+               <option value="git">Git</option>
+               <option value="java">Java</option>
+           </optgroup>
+       </select>
+   </form>
+
+   <!-- fieldset and legend  -->
+   <form>
+       <fieldset> <!--block element-->
+           <legend>Subscribe</legend>
+           Name: <input type= "text"><br>
+           Email: <input type= "email" placeholder= "abc@gmail.com">
+       </fieldset>
+       <textarea cols= "20" rows= "8">
+       </textarea>
+   </form>
+</body>
+</html>
