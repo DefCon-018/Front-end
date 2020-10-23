@@ -1,0 +1,24 @@
+/* This rule will be apllied to all spans of p */
+p span{ 
+    color : red;
+}
+
+/* select all <p> elements where the parent is <div> element */
+#div > p{
+    color: blue;
+}
+
+/* Selects all <p> elements that are placed immediately after <div> elements */
+div + p{
+    color: crimson;
+}
+
+/* grouping  to select all <div> elements and <span> elements*/
+span, div{
+    background-color: yellow;
+}
+
+/* select all ul elments that are preceded by a p element */
+p ~ ul{
+    background-color: yellowgreen;
+}
