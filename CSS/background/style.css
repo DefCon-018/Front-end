@@ -1,0 +1,9 @@
+#div1{
+    background-image: url("../../Media/ny.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
